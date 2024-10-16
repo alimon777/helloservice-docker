@@ -6,5 +6,5 @@
 - docker exec -it <container_id> bash
 - docker run -d -p 3000:8099 app:1.0
 - //3000 is the local while 8099 is the port configured for spring boot app running in container
-- docker tag hello-app:latest alimon007/dockerhub:hello-app
+- docker tag app:1.0 alimon007/dockerhub:hello-app
 - docker push alimon007/dockerhub:hello-app
