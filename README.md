@@ -1,3 +1,4 @@
+- //run as maven build and give the target/.jar file in Dockerfile
 - docker build -t app:1.0 .
 - docker images
 - docker ps
